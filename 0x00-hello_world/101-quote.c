@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- *  *main - A program to print a line using the printf function
- *   * Return: 0 (Success)
- *    */
+ * main - A program that prints a line to the standard error
+ * Return: 1 (Success)
+ */
 int main(void)
 {
-	        printf("with proper grammar, but the outcome is a piece of art,\n");
-		        return (0);
+	        fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+		return (1);
 }
