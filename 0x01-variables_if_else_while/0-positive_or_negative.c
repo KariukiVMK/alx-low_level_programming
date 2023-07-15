@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
  * main - Determines if a numbers is +ve, -ve, or a 0.
